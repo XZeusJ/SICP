@@ -1,0 +1,14 @@
+#lang sicp
+;;euclid falmule
+
+(define (euclid a b)
+  (if (= b 0)
+      a
+      (euclid b (mod a b))))
+
+(define (mod a b)
+  
+  )
+
+(mod 4 9)
+  
